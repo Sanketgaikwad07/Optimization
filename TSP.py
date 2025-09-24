@@ -11,6 +11,7 @@ from geopy.geocoders import Nominatim
 class City:
   
     def __init__(self, name, lon, lat):
+      
         self.name = name
         self.x = float(lon)
         self.y = float(lat)
